@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Sensors"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/light_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="LIGHT"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/temperature_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="TEMPERATURE"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/humidity_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="HUMIDITY"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/pressure_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="PRESSURE"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/proximity_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="PROXIMITY"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/accelerometer_sensor_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="ACCELEROMETER"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/shake_detect_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="SHAKE DETECT"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/step_counter_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="STEP COUNTER"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/step_detector_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="STEP DETECTOR"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/gravity_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="GRAVITY"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/flip_detector_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="FLIP DETECTOR"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/magnetometer_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="MAGNETOMETER"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/compass_button"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="COMPASS"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

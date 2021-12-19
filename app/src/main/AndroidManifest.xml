@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ashwin.android.sensor">
+    <!-- For step-counter and step-detector sensor -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sensor">
+        <activity
+            android:name=".compass.CompassActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".magnetometer.MagnetometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gravity.FlipDetectorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gravity.GravitySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".stepdetector.StepDetectorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".stepcounter.StepCounterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accelerometer.ShakeDetectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".accelerometer.AccelerometerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".proximity.ProximitySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pressure.PressureSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".humidity.HumiditySensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".temperature.TemperatureSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".light.LightSensorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
